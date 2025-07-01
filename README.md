@@ -11,5 +11,9 @@ gem install hiu_auth
 HiuAuth.verify_google_credential(id_token)
 ```
 
+```ruby
+HiuAuth.verify_facebook_credential(token)
+```
+
 # License
 Hiu Auth is released under the MIT license
